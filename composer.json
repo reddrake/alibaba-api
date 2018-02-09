@@ -1,0 +1,26 @@
+{
+	"name": "waimao/alibaba-api",
+	"type": "library",
+	"description": "Api for Alibaba",
+	"keywords": ["Alibaba"],
+	"homepage": "https://github.com/reddrake/alibaba-api",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "reddrake",
+			"email": "eagleftf123@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.5",
+		"guzzlehttp/guzzle": "^6.2"
+	},
+	"require-dev": {
+        "phpunit/phpunit": "4.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlibabaApi\\": "src/"
+        }
+    }
+}
