@@ -9,17 +9,9 @@ class RfqDetailGet extends AbstractOperation
         return 'alibaba.icbu.rfqdetail.get';
     }
 
-    public function setSupplierLoginId(string $supplierLoginId)
+    public function setRfqQueryDto(string $rfqQueryDto)
     {
-        $this->parameter['rfq_query_dto']['supplier_login_id'] = $supplierLoginId;
+        $this->parameter['rfq_query_dto'] = $rfqQueryDto;
         return $this;
     }
-
-    public function setRfqId(string $rfqId)
-    {
-        $this->parameter['rfq_query_dto']['rfq_id'] = $rfqId;
-        return $this;
-    }
-
-
 }
