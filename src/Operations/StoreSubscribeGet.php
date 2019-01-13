@@ -2,7 +2,7 @@
 
 namespace AlibabaApi\Operations;
 
-class VasSubscribeGet extends AbstractOperation
+class StoreSubscribeGet extends AbstractOperation
 {
     public function getName()
     {
