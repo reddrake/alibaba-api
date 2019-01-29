@@ -23,9 +23,9 @@ class AnnexUpload extends AbstractOperation
         return $this;
     }
 
-    public function setSource($source)
+    public function setSource()
     {
-        $this->parameter['source'] = $source;
+        $this->parameter['source'] = 'top';
 
         return $this;
     }
